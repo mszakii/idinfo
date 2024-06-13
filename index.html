@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <link rel="shortcut icon" href="passport.png" type="image/x-icon" />
+    <title>National ID</title>
+  </head>
+  <body>
+    <div class="err" id="errBox">Please Enter A valid ID</div>
+
+    <div class="form">
+      <div class="title">National ID Info</div>
+      <input type="number" name="idNum" id="idNum" min="25000000000000" />
+      <div class="btn" id="btn">Get Info</div>
+    </div>
+
+    <div class="result" id="result">
+      <div class="info">BirthDay: <span id="day"></span></div>
+      <div class="info">Gender: <span id="gender"></span></div>
+      <div class="info">Governorate: <span id="gov"></span></div>
+    </div>
+
+    <script src="master.js"></script>
+  </body>
+</html>
